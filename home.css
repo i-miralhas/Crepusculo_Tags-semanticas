@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #171719;
+    color: #e5e0e0;
+    line-height: 1.7;
+}
+
+header {
+    background: linear-gradient(135deg, #090909, #4a101b);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom: 2px solid #7d2637;
+}
+
+header h1 {
+    font-size: 48px;
+    letter-spacing: 10px;
+}
+
+header p {
+    color: #d8b8bd;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+nav {
+    background-color: #242124;
+    padding: 18px;
+    text-align: center;
+    border-bottom: 1px solid #513039;
+}
+
+nav a {
+    color: #e5c6cc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section, article, aside {
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+section {
+    background-color: #222124;
+    border: 1px solid #393035;
+}
+
+article {
+    background-color: #2c272b;
+    border-left: 3px solid #7d2637;
+    display: flex;
+    flex-direction: column;
+}
+
+h2, h3 {
+    color: #d9a4ae;
+    margin-bottom: 12px;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+aside {
+    background-color: #321c24;
+    border-left: 4px solid #9a4356;
+}
+
+ol {
+    padding-left: 25px;
+    margin: 15px 0;
+}
+
+a {
+    color: #e2a8b5;
+}
+
+footer {
+    background-color: #090909;
+    color: #b9aeb2;
+    text-align: center;
+    padding: 25px;
+    border-top: 2px solid #7d2637;
+}
+
+footer p {
+    margin: 5px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 32px;
+        letter-spacing: 5px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    section, article, aside {
+        padding: 18px;
+    }
+}
+
+
+.personagem {
+    width: 130px;
+    height: auto;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.personagem-container {
+    display: flex;
+}
+
